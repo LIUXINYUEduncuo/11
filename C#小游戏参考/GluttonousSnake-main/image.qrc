@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>src/desert.png</file>
+        <file>src/langman.png</file>
+        <file>src/none.png</file>
+        <file>src/sea.png</file>
+        <file>src/tiankong.png</file>
+        <file>src/winter.png</file>
+        <file>src/yekong.png</file>
+        <file>src/map.png</file>
+        <file>src/match1.png</file>
+        <file>src/match2.png</file>
+        <file>src/match3.png</file>
+        <file>src/snakegame.png</file>
+        <file>src/start.png</file>
+    </qresource>
+</RCC>

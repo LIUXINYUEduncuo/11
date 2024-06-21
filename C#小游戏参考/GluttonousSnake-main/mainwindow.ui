@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="image.qrc">
+    <normaloff>:/new/prefix1/src/snakegame.png</normaloff>:/new/prefix1/src/snakegame.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>菜单(&amp;M)</string>
+    </property>
+    <widget class="QMenu" name="menu_2">
+     <property name="title">
+      <string>地图选择</string>
+     </property>
+     <property name="icon">
+      <iconset resource="image.qrc">
+       <normaloff>:/new/prefix1/src/map.png</normaloff>:/new/prefix1/src/map.png</iconset>
+     </property>
+     <addaction name="action_5"/>
+     <addaction name="action_6"/>
+     <addaction name="action_7"/>
+     <addaction name="action_8"/>
+     <addaction name="action_9"/>
+     <addaction name="action_10"/>
+     <addaction name="action_13"/>
+    </widget>
+    <addaction name="action_S"/>
+    <addaction name="action"/>
+    <addaction name="action_2"/>
+    <addaction name="action_3"/>
+    <addaction name="menu_2"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="font">
+    <font>
+     <family>幼圆</family>
+     <pointsize>13</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+  </widget>
+  <action name="action_S">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/prefix1/src/start.png</normaloff>:/new/prefix1/src/start.png</iconset>
+   </property>
+   <property name="text">
+    <string>开始游戏(&amp;S)</string>
+   </property>
+   <property name="toolTip">
+    <string>开始游戏</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/prefix1/src/match1.png</normaloff>:/new/prefix1/src/match1.png</iconset>
+   </property>
+   <property name="text">
+    <string>蛇头配色</string>
+   </property>
+   <property name="toolTip">
+    <string>蛇头配色</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/prefix1/src/match2.png</normaloff>:/new/prefix1/src/match2.png</iconset>
+   </property>
+   <property name="text">
+    <string>蛇身配色</string>
+   </property>
+   <property name="toolTip">
+    <string>蛇身配色</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/new/prefix1/src/match3.png</normaloff>:/new/prefix1/src/match3.png</iconset>
+   </property>
+   <property name="text">
+    <string>食物配色</string>
+   </property>
+   <property name="toolTip">
+    <string>食物配色</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>荒野沙漠</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>无尽宇宙</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>蓝色海洋</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>蓝天白云</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>浪漫晚霞</string>
+   </property>
+  </action>
+  <action name="action_10">
+   <property name="text">
+    <string>冰天雪地</string>
+   </property>
+  </action>
+  <action name="action_13">
+   <property name="text">
+    <string>自定义</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
